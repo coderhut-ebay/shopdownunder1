@@ -1,0 +1,195 @@
+/* Global */
+
+.full-tem {
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+}
+.full-tem h1,
+.full-tem h2,
+.full-tem h3,
+.full-tem h4,
+.full-tem h5,
+.full-tem h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.3;
+    font-weight: 700;
+}
+.full-tem h1 {
+	font-size: 36px;
+}
+.full-tem h2 {
+	font-size: 30px;
+}
+.full-tem h3 {
+	font-size: 24px;
+}
+.full-tem h4 {
+	font-size: 18px;
+}
+.full-tem h5 {
+	font-size: 16px;
+}
+.full-tem h6 {
+	font-size: 14px;
+}
+a:hover {
+    text-decoration: none;
+}
+.full-tem {
+	overflow-x: hidden;
+}
+.full-tem img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header Area */
+
+.tem-hdr {
+	background-color: #f0f0f0;
+}
+.hdr-top {
+	padding: 15px 0;
+}
+.hdr-logo a {
+	display: inline-block;
+}
+
+.hdr-btm {
+	background-color: #ff4e02;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-size: 18px;
+}
+
+/* Product Info */
+
+.pro-info {
+	background-color: #f8f8f8;
+	padding-top: 30px;
+}
+.pro-info-inr {
+	background-color: #fff;
+}
+h4.policies-title,
+h4.pro-img-title,
+h4.pro-spec-title,
+h4.pro-feat-title,
+h4.pro-desc-title {
+	background-color: #333;
+	color: #fff;
+	margin-bottom: 0;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+.pro-spec-con,
+.pro-feat-con,
+.pro-desc-con {
+	padding: 15px 30px;
+	background-color: #fff;
+	border-top: 0;
+}
+.pro-spec-con ol,
+.pro-spec-con ul,
+.pro-feat-con ol,
+.pro-feat-con ul,
+.pro-desc-con ol,
+.pro-desc-con ul {
+	padding-left: 18px;
+}
+
+.pro-img-con {
+	padding: 0 15px 30px;
+}
+.single-img {
+	margin-top: 30px;
+}
+.single-img-thumb {
+	border: 5px solid #333;
+	border-bottom: 0;
+	text-align: center;
+}
+.single-img-thumb img {
+	height: 515px;
+	width: auto;
+	max-width: 100%;
+}
+.single-img-txt {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+.policies-con {
+	padding: 30px 0;
+}
+.single-policy {
+	border-bottom: 1px solid #f5f5f5;
+	padding: 0 30px;
+	margin-bottom: 15px;
+}
+h3.single-policy-title {
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.single-policy-title i {
+	margin-right: 5px;
+	color: #54BA00;
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.single-img-thumb img {
+		height: 425px;
+	}
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.single-img-thumb img {
+		height: 305px;
+	}
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+	.hdr-logo {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.hdr-info.text-right {
+		text-align: center !important;
+	}
+	.hdr-info img {
+		height: 65px;
+	}
+	.single-policy,
+	.pro-spec-con,
+	.pro-feat-con,
+	.pro-desc-con {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.single-img-thumb img {
+		height: 250px;
+	}
+	h3.single-policy-title {
+		font-size: 18px;
+	}
+	.single-img-txt {
+		font-size: 14px;
+	}
+ 
+}
